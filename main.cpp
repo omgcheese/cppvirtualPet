@@ -22,5 +22,12 @@ int main() {
     cout << "Cheese weighs: " << cheese.getWeight() << endl;
     cout << "rofl weighs: " << rofl.getWeight() << endl;
     rofl.getWeight();
+    
+    if (rofl.getHungry()) {
+        cout << "rofl is hungry" << endl;
+    }
+    else {
+        cout << "rofl is not hungry" << endl;
+    }
     return 0;
 }
